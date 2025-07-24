@@ -87,10 +87,10 @@
     "PUID": 0
   },
   "ports": {
-    "8686/tcp": 8686
+    "6595/tcp": 6595
   },
   "ports_description": {
-    "8686/tcp": "Web interface"
+    "6595/tcp": "Web interface"
   },
   "privileged": [
     "SYS_ADMIN",
