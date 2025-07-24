@@ -1,5 +1,5 @@
 name: Lidarr
-version: latest
+version: pr-plugins
 slug: lidarr
 description: Looks and smells like Sonarr but made for music
 url: https://github.com/olliedown/homeassistant/lidarr/README.md
@@ -16,4 +16,4 @@ map:
 - media:rw
 ports:
   8686/tcp: 8686
-image: ghcr.io/youegraillot/lidarr-on-steroids
+image: ghcr.io/hotio/lidarr
