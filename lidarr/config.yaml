@@ -22,9 +22,6 @@ privileged:
   - NET_ADMIN
   - NET_RAW
   - DAC_READ_SEARCH
-options:
+environment:
   PGID: 0
   PGUD: 0
-schema:
-  PGID: "str"
-  PGUD: "str"
