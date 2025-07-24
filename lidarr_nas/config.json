@@ -79,6 +79,7 @@
   "map": [
     "share:rw",
     "media:rw",
+    "config:rw",
     "/custom-services.d:rw",
     "/custom-cont-init.d:rw"
   ],
