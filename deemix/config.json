@@ -81,7 +81,7 @@
     "share:rw",
     "media:rw"
   ],
-  "name": "Lidarr NAS",
+  "name": "Deemix",
   "options": {
     "PGID": 0,
     "PUID": 0
@@ -106,7 +106,7 @@
     "localdisks": "str?",
     "networkdisks": "str?"
   },
-  "slug": "lidarr_nas",
+  "slug": "deemix",
   "udev": true,
   "url": "https://github.com/alexbelgium/hassio-addons/blob/master/lidarr/README.md",
   "version": "latest",
