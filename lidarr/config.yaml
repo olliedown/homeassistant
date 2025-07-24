@@ -16,12 +16,4 @@ map:
 - media:rw
 ports:
   8686/tcp: 8686
-image: ghcr.io/hotio/lidarr
-privileged:
-  - SYS_ADMIN
-  - NET_ADMIN
-  - NET_RAW
-  - DAC_READ_SEARCH
-environment:
-  PGID: 0
-  PGUD: 0
+image: ghcr.io/youegraillot/lidarr-on-steroids
