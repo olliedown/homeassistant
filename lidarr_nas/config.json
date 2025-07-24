@@ -77,7 +77,6 @@
   "image": "ghcr.io/hotio/lidarr",
   "init": false,
   "map": [
-    "config:rw",
     "share:rw",
     "media:rw"
   ],
