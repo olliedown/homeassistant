@@ -19,4 +19,3 @@ ports:
 image: ghcr.io/hotio/lidarr
 environment:
   PGID: 0
-  PUID: 0
