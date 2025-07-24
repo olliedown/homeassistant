@@ -17,3 +17,15 @@ map:
 ports:
   8686/tcp: 8686
 image: ghcr.io/hotio/lidarr
+options:
+  beer: true
+  wine: true
+  liquor: false
+  name: "world"
+  year: 2017
+schema:
+  beer: bool
+  wine: bool
+  liquor: bool
+  name: str
+  year: int
