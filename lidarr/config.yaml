@@ -1,5 +1,5 @@
 name: Lidarr
-version: pr-plugins-2.5.2.4317
+version: pr-plugins
 slug: lidarr
 description: Looks and smells like Sonarr but made for music
 url: https://github.com/olliedown/homeassistant/lidarr/README.md
