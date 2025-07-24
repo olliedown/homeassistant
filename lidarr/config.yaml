@@ -17,5 +17,14 @@ map:
 ports:
   8686/tcp: 8686
 image: ghcr.io/hotio/lidarr
-environment:
+privileged:
+  - SYS_ADMIN
+  - NET_ADMIN
+  - NET_RAW
+  - DAC_READ_SEARCH
+options:
   PGID: 0
+  PGUD: 0
+schema:
+  PGID: "str"
+  PGUD: "str"
