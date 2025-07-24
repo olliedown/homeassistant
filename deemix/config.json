@@ -76,7 +76,6 @@
   "image": "ghcr.io/bambanah/deemix",
   "init": false,
   "map": [
-    "config:rw",
     "share:rw",
     "media:rw"
   ],
