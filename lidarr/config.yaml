@@ -12,7 +12,7 @@ arch:
 - armv7
 map:
 - addon_config:rw
-- share:rw
+- share/NAS:rw
 - media:rw
 ports:
   8686/tcp: 8686
