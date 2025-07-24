@@ -74,7 +74,7 @@
     "PGID": "0",
     "PUID": "0"
   },
-  "image": "ghcr.io/alexbelgium/lidarr_nas-{arch}",
+  "image": "https://ghcr.io/linuxserver-labs/prarr",
   "init": false,
   "map": [
     "config:rw",
@@ -109,6 +109,6 @@
   "slug": "lidarr_nas",
   "udev": true,
   "url": "https://github.com/alexbelgium/hassio-addons/blob/master/lidarr/README.md",
-  "version": "pr-plugins",
+  "version": "lidarr-plugins",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8686]"
 }
