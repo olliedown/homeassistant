@@ -84,12 +84,12 @@
     "share:rw",
     "ssl"
   ],
-  "name": "qBittorrent",
+  "name": "Lidarr",
   "options": {
     "DNS_server": "8.8.8.8,1.1.1.1",
     "PGID": "0",
     "PUID": "0",
-    "SavePath": "/share/qBittorrent",
+    "SavePath": "/share/Lidarr",
     "Username": "admin",
     "certfile": "fullchain.pem",
     "customUI": "vuetorrent",
@@ -148,5 +148,5 @@
   "slug": "lidarr",
   "udev": true,
   "url": "https://github.com/olliedown/homeassistant/lidarr/README.md",
-  "version": "5.1.2-2"
+  "version": "pr-plugins"
 }
