@@ -78,7 +78,9 @@
   "init": false,
   "map": [
     "share:rw",
-    "media:rw"
+    "media:rw",
+    "/custom-services.d:rw",
+    "/custom-cont-init.d:rw"
   ],
   "name": "Lidarr NAS",
   "options": {
