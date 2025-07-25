@@ -79,7 +79,8 @@
   "map": [
     "share:rw",
     "media:rw",
-    "config:rw",
+    "addon_config:rw",
+    "addon_data:rw",
     "/custom-services.d:rw",
     "/custom-cont-init.d:rw"
   ],
