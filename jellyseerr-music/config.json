@@ -75,7 +75,7 @@
   "map": [
     "config:rw"
   ],
-  "name": "Jellyseerr",
+  "name": "Jellyseerr With Music",
   "options": {
     "TYPE": "emby",
     "TZ": "Europe/Paris"
