@@ -73,7 +73,8 @@
   "image": "fallenbagel/jellyseerr",
   "init": false,
   "map": [
-    "config:rw"
+    "addon_config:rw",
+    "addon_data:rw"
   ],
   "name": "Jellyseerr With Music",
   "options": {
