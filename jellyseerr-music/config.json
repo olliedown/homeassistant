@@ -70,7 +70,7 @@
   ],
   "environment": {},
   "host_network": true,
-  "image": "ghcr.io/hotio/jellyseerr",
+  "image": "ghcr.io/fallenbagel/jellyseerr",
   "init": false,
   "map": [
     "config:rw"
