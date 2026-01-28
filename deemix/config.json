@@ -77,7 +77,9 @@
   "init": false,
   "map": [
     "share:rw",
-    "media:rw"
+    "media:rw",
+    "addon_config:rw",
+    "addon_data:rw"
   ],
   "name": "Deemix",
   "options": {
