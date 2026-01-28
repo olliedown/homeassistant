@@ -110,7 +110,7 @@
   },
   "slug": "deemix",
   "udev": true,
-  "url": "deemix",
+  "url": "https://github.com/olliedown/homeassistant/blob/main/deemix/",
   "version": "latest",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:6595]"
 }
