@@ -85,7 +85,8 @@
   "name": "Deemix",
   "options": {
     "PGID": 0,
-    "PUID": 0
+    "PUID": 0,
+    "DEEMIX_MUSIC_DIR": "/share/NAS/Downloads"
   },
   "ports": {
     "6595/tcp": 6595
