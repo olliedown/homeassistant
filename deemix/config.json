@@ -71,7 +71,8 @@
   ],
   "environment": {
     "PGID": "0",
-    "PUID": "0"
+    "PUID": "1",
+    "DEEMIX_MUSIC_DIR": "/share/NAS/Downloads"
   },
   "image": "ghcr.io/bambanah/deemix",
   "init": false,
