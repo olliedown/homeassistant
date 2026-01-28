@@ -4,8 +4,8 @@
     "amd64",
     "armv7"
   ],
-  "codenotary": "alexandrep.github@gmail.com",
-  "description": "Music collection manager for Usenet and BitTorrent users",
+  "codenotary": "deemix",
+  "description": "deemix",
   "devices": [
     "/dev/dri",
     "/dev/dri/card0",
@@ -110,7 +110,7 @@
   },
   "slug": "deemix",
   "udev": true,
-  "url": "https://github.com/alexbelgium/hassio-addons/blob/master/lidarr/README.md",
+  "url": "deemix",
   "version": "latest",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:6595]"
 }
