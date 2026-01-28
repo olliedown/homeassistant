@@ -14,16 +14,16 @@ if [ ! -d /share/downloads ]; then
     chown -R "$PUID:$PGID" /share/downloads
 fi
 
-if [ -d /config/lidarr ] && [ ! -d /config/addons_config/lidarr ]; then
-    echo "Moving to new location /config/addons_config/lidarr"
-    mkdir -p /config/addons_config/lidarr
-    chmod 777 /config/addons_config/lidarr
-    mv /config/lidarr/* /config/addons_config/lidarr/
-    rm -r /config/lidarr
+if [ -d /config/deemix ] && [ ! -d /config/addons_config/deemix ]; then
+    echo "Moving to new location /config/addons_config/deemix"
+    mkdir -p /config/addons_config/deemix
+    chmod 777 /config/addons_config/deemix
+    mv /config/deemix/* /config/addons_config/deemix/
+    rm -r /config/deemix
 fi
 
-if [ ! -d /config/addons_config/lidarr ]; then
-    echo "Creating /config/addons_config/lidarr"
-    mkdir -p /config/addons_config/lidarr
-    chmod 777 /config/addons_config/lidarr
+if [ ! -d /config/addons_config/deemix ]; then
+    echo "Creating /config/addons_config/deemix"
+    mkdir -p /config/addons_config/deemix
+    chmod 777 /config/addons_config/deemix
 fi
