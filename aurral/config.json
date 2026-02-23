@@ -73,7 +73,7 @@
     "PGID": "0",
     "PUID": "0"
   },
-  "image": "ghcr.io/lklynet/aurral:latest",
+  "image": "ghcr.io/lklynet/aurral",
   "init": false,
   "map": [
     "share:rw",
@@ -110,5 +110,5 @@
   "udev": true,
   "url": "https://github.com/olliedown/homeassistant/blob/main/aurral/",
   "version": "latest",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:6595]"
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:3001]"
 }
