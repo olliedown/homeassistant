@@ -71,7 +71,7 @@
   ],
   "environment": {
     "PGID": "0",
-    "PUID": "0",
+    "PUID": "0"
   },
   "image": "ghcr.io/lklynet/aurral:latest",
   "init": false,
