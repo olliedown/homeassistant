@@ -73,7 +73,7 @@
     "PGID": "0",
     "PUID": "0",
   },
-  "image": "ghcr.io/lklynet/aurral",
+  "image": "ghcr.io/lklynet/aurral:latest",
   "init": false,
   "map": [
     "share:rw",
