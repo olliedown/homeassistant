@@ -4,17 +4,15 @@
     "amd64",
     "armv7"
   ],
-  "codenotary": "aurral",
-  "description": "aurral",
+  "codenotary": "aurral2",
+  "description": "aurral2",
   "image": "ghcr.io/lklynet/aurral",
   "init": false,
   "map": [
-    "share:rw",
-    "media:rw",
     "addon_config:rw",
     "addon_data:rw"
   ],
-  "name": "Aurral",
+  "name": "Aurral2",
   "ports": {
     "3001/tcp": 3001
   },
