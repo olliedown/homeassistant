@@ -15,7 +15,6 @@
     "addon_data:rw"
   ],
   "name": "Aurral",
-  },
   "ports": {
     "3001/tcp": 3001
   },
