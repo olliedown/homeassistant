@@ -8,10 +8,7 @@
   "description": "aurral2",
   "image": "ghcr.io/lklynet/aurral",
   "init": false,
-  "map": [
-    "addon_config:rw",
-    "addon_data:rw"
-  ],
+
   "name": "Aurral2",
   "ports": {
     "3001/tcp": 3001
@@ -19,8 +16,7 @@
   "ports_description": {
     "3001/tcp": "Web interface"
   },
-  "slug": "aural",
-  "udev": true,
+  "slug": "aural2",
   "url": "https://github.com/olliedown/homeassistant/blob/main/aurral/",
   "version": "latest",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:3001]"
