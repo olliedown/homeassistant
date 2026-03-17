@@ -8,7 +8,14 @@
   "description": "aurral",
   "image": "ghcr.io/lklynet/aurral",
   "init": false,
-  "map": "/app/backend/data:rw",
+  "map": "",
+  "map": [
+    "share:rw",
+    "media:rw",
+    "addon_config:rw",
+    "addon_data:rw",
+    "/app/backend/data:rw"
+  ],
   "name": "Aurral",
   "ports": {
     "3001/tcp": 3001
