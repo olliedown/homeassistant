@@ -4,19 +4,21 @@
     "amd64",
     "armv7"
   ],
-  "codenotary": "aurral2",
-  "description": "aurral2",
-  "image": "ghcr.io/lklynet/aurral",
+  "codenotary": "aurral",
+  "description": "aurral",
+  "image": "ghcr.io/lklynet/aurral:1.32.10",
   "init": false,
-
-  "name": "Aurral2",
+  "map": [
+    "/app/backend/data:rw",
+  ],
+  "name": "Aurral",
   "ports": {
     "3001/tcp": 3001
   },
   "ports_description": {
     "3001/tcp": "Web interface"
   },
-  "slug": "aural2",
+  "slug": "aural",
   "url": "https://github.com/olliedown/homeassistant/blob/main/aurral/",
   "version": "latest",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:3001]"
