@@ -76,8 +76,8 @@
   "image": "ghcr.io/lklynet/aurral",
   "init": false,
   "map": [
-    "testdata:rw",
-    "testdownloads:rw",
+    "share:rw",
+    "media:rw",
     "addon_config:rw",
     "addon_data:rw"
   ],
