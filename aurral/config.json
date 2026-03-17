@@ -7,8 +7,6 @@
   "codenotary": "aurral",
   "description": "aurral"
   ],
-  "environment": {
-  },
   "image": "ghcr.io/lklynet/aurral",
   "init": false,
   "map": [
