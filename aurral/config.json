@@ -8,9 +8,7 @@
   "description": "aurral",
   "image": "ghcr.io/lklynet/aurral:1.32.10",
   "init": false,
-  "map": [
-    "/app/backend/data:rw",
-  ],
+  "map": "/app/backend/data:rw",
   "name": "Aurral",
   "ports": {
     "3001/tcp": 3001
