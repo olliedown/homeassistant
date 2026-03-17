@@ -5,8 +5,7 @@
     "armv7"
   ],
   "codenotary": "aurral",
-  "description": "aurral"
-  ],
+  "description": "aurral",
   "image": "ghcr.io/lklynet/aurral",
   "init": false,
   "map": [
