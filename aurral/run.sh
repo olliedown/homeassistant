@@ -3,20 +3,20 @@ set -e
 
 echo "🔧 Preparing Aurral addon directories..."
 
-# Ensure target exists or replace it safely
+# If /app/backend/data exists as a real directory, replace it with a symlink
 if [ -d "/app/backend/data" ] && [ ! -L "/app/backend/data" ]; then
-    echo "⚠️  /app/backend/data exists as a normal directory, converting to symlink..."
+    echo "⚠️  Existing directory detected at /app/backend/data, replacing with symlink..."
     rm -rf /app/backend/data
 fi
 
-# Create parent path if missing
+# Ensure parent directory exists
 mkdir -p /app/backend
 
-# Create symlink: /data → /app/backend/data
+# Symlink HA's addon data folder into your app path
 ln -sf /data /app/backend/data
-echo "✅ Mapped /data to /app/backend/data"
+echo "✅ Mapped /data → /app/backend/data"
 
-# ---- Start your application ----
-echo "🚀 Starting Aurral backend..."
-cd /app/backend
-exec node server.js
+echo "🚀 Starting app..."
+# Start whatever the original container starts
+# Most Node apps start with this:
+exec node /app/backend/server.js
