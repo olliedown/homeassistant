@@ -1,10 +1,11 @@
 FROM ghcr.io/lklynet/aurral:latest
 
-# Copy your run script into the container
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
 
-# This ensures /data is available for HA mappings
-VOLUME ["/data"]
+# Important: override upstream entrypoint
+ENTRYPOINT []
 
-# Home Assistant will override ENTRYPOINT with your command in config.json
+# Home Assistant will now execute:
+# /bin/bash /run.sh
+# because of your config.json "command" field
