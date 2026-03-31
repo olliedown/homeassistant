@@ -1,30 +1,33 @@
 {
-  "arch": [
-    "aarch64",
-    "amd64",
-    "armv7"
-  ],
-  "codenotary": "aurral",
-  "description": "aurral",
-  "image": "ghcr.io/lklynet/aurral",
-  "init": false,
-  "map": "",
-  "map": [
-    "share:rw",
-    "media:rw",
-    "addon_config:rw",
-    "addon_data:rw",
-    "/app/backend/data:rw"
-  ],
   "name": "Aurral",
+  "slug": "aurral",
+  "description": "Aurral Home Assistant Add-on",
+  "version": "1.36.3",
+  "url": "https://github.com/olliedown/homeassistant",
+  "arch": ["aarch64", "amd64", "armv7"],
+  "image": "ghcr.io/lklynet/aurral",
+  "codenotary": "aurral",
+  "init": false,
+
+  "startup": "services",
+  "boot": "auto",
+
+  "map": [
+    "addon_data:rw"
+  ],
+
   "ports": {
     "3001/tcp": 3001
   },
+
   "ports_description": {
     "3001/tcp": "Web interface"
   },
-  "slug": "aural",
-  "url": "https://github.com/olliedown/homeassistant/blob/main/aurral/",
-  "version": "1.32.10",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:3001]"
+
+  "webui": "[PROTO:ssl]://[PORT:3001]",
+
+  "command": [
+    "/bin/bash",
+    "/run.sh"
+  ]
 }
