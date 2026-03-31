@@ -3,6 +3,7 @@ slug: "aurral"
 version: "1.0.0"
 description: "Self-hosted music discovery and request manager for Lidarr"
 url: "https://github.com/lklynet/aurral"
+image: "ghcr.io/lklynet/aurral:latest"
 arch:
   - amd64
   - aarch64
