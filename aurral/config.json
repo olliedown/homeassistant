@@ -1,17 +1,13 @@
 {
   "name": "Aurral1.36.3",
-  "slug": "aurral1.36.3",
+  "slug": "aurral",
   "description": "Aurral Home Assistant Add-on",
   "version": "1.36.3",
   "url": "https://github.com/olliedown/homeassistant",
-  "arch": ["aarch64", "amd64", "armv7"],
+  "arch": ["amd64", "arm64"],
   "codenotary": "aurral1.36.3",
   "init": false,
   "ports": {
     "3001/tcp": 3001
   },
-
-  "ports_description": {
-    "3001/tcp": "Web interface"
-  }
 }
