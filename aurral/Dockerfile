@@ -5,4 +5,4 @@ COPY run.sh /run.sh
 RUN chmod +x /run.sh
 
 ENTRYPOINT []
-CMD ["/bin/bash", "/run.sh"]
+CMD ["/bin/sh", "/run.sh"]
