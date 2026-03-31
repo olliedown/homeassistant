@@ -1,6 +1,6 @@
-FROM ghcr.io/lklynet/aurral:latest
+#FROM ghcr.io/lklynet/aurral:latest
 
-COPY run.sh /run.sh
-RUN chmod +x /run.sh
+#COPY run.sh /run.sh
+#RUN chmod +x /run.sh
 
-CMD ["/app/server.js"]
+#CMD ["/app/server.js"]
