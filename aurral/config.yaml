@@ -1,0 +1,14 @@
+name: "Aurral"
+slug: "aurral"
+version: "1.0.0"
+description: "Self-hosted music discovery and request manager for Lidarr"
+url: "https://github.com/lklynet/aurral"
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+ports:
+  3000/tcp: 3000
+map:
+  - share:rw
