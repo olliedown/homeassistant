@@ -12,6 +12,7 @@
   "boot": "auto",
 
   "map": [
+    "addon_data:rw",
     "addon_config:rw"
   ],
 
