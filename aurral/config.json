@@ -2,7 +2,7 @@
   "name": "Aurral",
   "slug": "aurral",
   "description": "Aurral Home Assistant Add-on",
-  "version": "latest",
+  "version": "1.36.3",
   "url": "https://github.com/olliedown/homeassistant",
   "arch": ["aarch64", "amd64", "armv7"],
   "codenotary": "aurral",
