@@ -9,5 +9,5 @@
   "init": false,
   "ports": {
     "3001/tcp": 3001
-  },
+  }
 }
