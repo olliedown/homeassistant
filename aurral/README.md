@@ -1,5 +1,5 @@
 <div align="center" width="100%">
-  <img src="frontend/public/arralogo.svg" width="128" height="128" alt="Aurral Logo" />
+  <img src="logo.png" width="128" height="128" alt="Aurral Logo" />
 </div>
 
 # Aurral
