@@ -8,7 +8,7 @@ RUN chmod +x /run.sh
 ENTRYPOINT []
 
 # Make backend directory a persistent volume
-VOLUME ["/app/backend"]
+VOLUME ["/app/backend/data"]
 
 # Default command
 CMD ["/bin/sh", "/run.sh"]
