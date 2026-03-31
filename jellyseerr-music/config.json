@@ -70,31 +70,31 @@
   ],
   "environment": {},
   "host_network": true,
-  "image": "fallenbagel/jellyseerr",
+  "image": "ghcr.io/lklynet/aurral",
   "init": false,
   "map": [
     "addon_config:rw",
     "addon_data:rw"
   ],
-  "name": "Jellyseerr With Music",
+  "name": "Aurral",
   "options": {
     "TYPE": "emby",
-    "TZ": "Europe/Paris"
+    "TZ": "UK/London"
   },
   "ports": {
-    "5055/tcp": 5055
+    "3001/tcp": 3001
   },
   "ports_description": {
-    "5055/tcp": "web interface"
+    "3001/tcp": "web interface"
   },
   "privileged": [],
   "schema": {
     "TYPE": "list(emby|jellyfin)",
     "TZ": "str?"
   },
-  "slug": "jellyseerr",
+  "slug": "aurral",
   "udev": true,
-  "url": "https://github.com/alexbelgium/hassio-addons/tree/master/jellyseerr",
-  "version": "preview-music-support",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:5055]"
+  "url": "https://github.com/olliedown/homeassistant/aurral",
+  "version": "1.36.3",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:3001]"
 }
