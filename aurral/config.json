@@ -78,16 +78,8 @@
   "init": false,
   "map": [
     "share:rw",
-    "addon_config:rw"
+    "data:rw"
   ],
-  
-"mounts": [
-  {
-    "type": "bind",
-    "source": "/addon_config",
-    "target": "/app/backend/data"
-  }
-],
   "name": "Aurral",
   "options": {
     "PGID": 0,
