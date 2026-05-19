@@ -3,35 +3,20 @@ arch:
   - amd64
 description: An open source command line RatioMaster with WebUI
 hassio_api: true
-image: ghcr.io/alexbelgium/joal-{arch}
+image: ghcr.io/lklynet/aurral
 ingress: true
 ingress_entry: entry
 map:
   - addon_config:rw
   - homeassistant_config:rw
-name: Joal
-options:
-  env_vars: []
-  run_duration: 12h
-  secret_token: lrMY24Byhx
-  ui_path: joal
-panel_admin: false
-panel_icon: mdi:owl
+name: Aurral2
 ports:
-  49152/tcp: null
-  8081/tcp: 8091
+  3001/tcp: null
+  3001/tcp: 3001
 ports_description:
-  49152/tcp: torrent port (not required)
-  8081/tcp: Web UI port (required)
-schema:
-  env_vars:
-    - name: match(^[A-Za-z0-9_]+$)
-      value: str?
-  run_duration: str?
-  secret_token: str
-  ui_path: str
-  verbose: bool?
-slug: joal
+  3001/tcp: torrent port (not required)
+  3001/tcp: Web UI port (required)
+slug: aurral2
 udev: true
 url: https://github.com/alexbelgium/hassio-addons
 version: 2.1.37-4
