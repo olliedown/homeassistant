@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM ghcr.io/lklynet/aurral
 
 # Copy our startup script
 COPY run.sh /run.sh
