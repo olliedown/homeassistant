@@ -74,7 +74,7 @@
     "PGID": "0",
     "PUID": "0"
   },
-  "image": "ghcr.io/hotio/lidarr",
+  "image": "ghcr.io/lklynet/aurral",
   "init": false,
   "map": [
     "share:rw",
