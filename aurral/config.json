@@ -78,13 +78,13 @@
   "init": false,
   "map": [
     "share:rw",
-    "addon_data:rw"
+    "addon_config:rw"
   ],
   
 "mounts": [
   {
     "type": "bind",
-    "source": "/addon_data/aurral",
+    "source": "/addon_config/aurral",
     "target": "/app/backend/data"
   }
 ],
