@@ -88,7 +88,7 @@
     "PUID": 0
   },
   "ports": {
-    "8686/tcp": 8686
+    "3001/tcp": 3001
   },
   "ports_description": {
     "8686/tcp": "Web interface"
@@ -111,5 +111,5 @@
   "udev": true,
   "url": "https://github.com/alexbelgium/hassio-addons/blob/master/lidarr/README.md",
   "version": "latest",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:8686]"
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:3001]"
 }
