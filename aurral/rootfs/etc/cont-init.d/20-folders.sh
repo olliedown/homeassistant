@@ -1,11 +1,15 @@
-#!/usr/bin/with-contenv bashio
-# shellcheck shell=bash
-set -e
+#!/usr/bin/with-contenv bash
 
-if [ -d /app/backend/data ] && [ ! -d /config/addons_config/aurral ]; then
-    echo "Moving to new location /config/addons_config/aurral"
-    mkdir -p /config/addons_config/aurral
-    chmod 777 /config/addons_config/aurral
-    mv /app/backend/data/* /config/addons_config/aurral/
-    rm -r /app/backend/data/
+# Move existing data if needed
+if [ ! -f /data/.migrated ]; then
+  mkdir -p /data/aurral
+  cp -r /app/backend/data/* /data/aurral/ 2>/dev/null || true
+  touch /data/.migrated
 fi
+
+# Replace internal path with symlink
+rm -rf /app/backend/data
+ln -s /data/aurral /app/backend/data
+
+# Start app
+exec /init
