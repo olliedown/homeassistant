@@ -5,7 +5,8 @@
   "description": "Aurral music service",
   "arch": ["aarch64", "amd64", "armv7"],
 
-  "build": "aurral",
+
+  "build": true
   "startup": "application",
   "init": false,
 
