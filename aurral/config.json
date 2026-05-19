@@ -70,7 +70,7 @@
     "/dev/nvme2"
   ],
   "environment": {
-    "DOCKER_MODS": "linuxserver/mods:lidarr-flac2mp3",
+    "DOWNLOAD_FOLDER": "/share/aurraldownloads",
     "PGID": "0",
     "PUID": "0"
   },
@@ -80,9 +80,7 @@
     "share:rw",
     "media:rw",
     "addon_config:rw",
-    "addon_data:rw",
-    "/custom-services.d:rw",
-    "/custom-cont-init.d:rw"
+    "addon_data:rw"
   ],
   "name": "Aurral",
   "options": {
