@@ -84,7 +84,7 @@
 "mounts": [
   {
     "type": "bind",
-    "source": "/addon_config/aurral",
+    "source": "/addon_config",
     "target": "/app/backend/data"
   }
 ],
@@ -97,7 +97,7 @@
     "3001/tcp": 3001
   },
   "ports_description": {
-    "8686/tcp": "Web interface"
+    "3001/tcp": "Web interface"
   },
   "privileged": [
     "SYS_ADMIN",
