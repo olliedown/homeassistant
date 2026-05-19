@@ -108,7 +108,7 @@
   },
   "slug": "aurral",
   "udev": true,
-  "url": "https://github.com/olliedown/homeassistant/blob/main/deemix/",
+  "url": "https://github.com/olliedown/homeassistant/blob/main/aurral/",
   "version": "latest",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:6595]"
 }
