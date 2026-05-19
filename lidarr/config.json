@@ -84,7 +84,7 @@
     "/custom-services.d:rw",
     "/custom-cont-init.d:rw"
   ],
-  "name": "Lidarr NAS",
+  "name": "Lidarr",
   "options": {
     "PGID": 0,
     "PUID": 0
@@ -109,7 +109,7 @@
     "localdisks": "str?",
     "networkdisks": "str?"
   },
-  "slug": "lidarr_nas",
+  "slug": "lidarr",
   "udev": true,
   "url": "https://github.com/alexbelgium/hassio-addons/blob/master/lidarr/README.md",
   "version": "pr-plugins",
