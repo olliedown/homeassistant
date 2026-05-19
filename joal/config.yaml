@@ -19,4 +19,4 @@ ports_description:
 slug: aurral2
 udev: true
 url: https://github.com/alexbelgium/hassio-addons
-version: 2.1.37-4
+version: latest
