@@ -2,7 +2,7 @@
 
 echo "Starting Aurral with persistent storage..."
 
-# Ensure persistent folder exists
+# Ensure persistent folder
 mkdir -p /data/aurral
 
 # One-time migration
@@ -12,11 +12,12 @@ if [ ! -f /data/aurral/.migrated ]; then
   touch /data/aurral/.migrated
 fi
 
-# Replace internal path with symlink
+# Replace internal storage path
 rm -rf /app/backend/data
 ln -s /data/aurral /app/backend/data
 
-echo "Data path linked: /app/backend/data -> /data/aurral"
+echo "Mapped /app/backend/data → /data/aurral"
 
-# Start original container process
+# Start original process
 exec /init
+``
