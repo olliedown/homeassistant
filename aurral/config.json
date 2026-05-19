@@ -82,6 +82,13 @@
     "addon_config:rw",
     "addon_data:rw"
   ],
+  "mounts": [
+  {
+    "type": "bind",
+    "source": "/addon_config",
+    "target": "/app/backend/data"
+  }
+  ],
   "name": "Aurral",
   "options": {
     "PGID": 0,
