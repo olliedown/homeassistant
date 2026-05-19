@@ -1,0 +1,4 @@
+build_from:
+  aarch64: "ghcr.io/lklynet/aurral"
+  amd64: "ghcr.io/lklynet/aurral"
+  armv7: "ghcr.io/lklynet/aurral"
