@@ -4,8 +4,8 @@
     "amd64",
     "armv7"
   ],
-  "codenotary": "alexandrep.github@gmail.com",
-  "description": "Music collection manager for Usenet and BitTorrent users",
+  "codenotary": "aurral",
+  "description": "Self-hosted music discovery and request management for Lidarr.",
   "devices": [
     "/dev/dri",
     "/dev/dri/card0",
@@ -70,7 +70,7 @@
     "/dev/nvme2"
   ],
   "environment": {
-    "DOCKER_MODS": "linuxserver/mods:lidarr-flac2mp3",
+    "DOWNLOAD_FOLDER": "./data/downloads",
     "PGID": "0",
     "PUID": "0"
   },
@@ -81,8 +81,6 @@
     "media:rw",
     "addon_config:rw",
     "addon_data:rw",
-    "/custom-services.d:rw",
-    "/custom-cont-init.d:rw"
   ],
   "name": "Aurral",
   "options": {
@@ -90,10 +88,10 @@
     "PUID": 0
   },
   "ports": {
-    "8686/tcp": 8686
+    "3001/tcp": 3001
   },
   "ports_description": {
-    "8686/tcp": "Web interface"
+    "3001/tcp": "Web interface"
   },
   "privileged": [
     "SYS_ADMIN",
@@ -111,7 +109,7 @@
   },
   "slug": "aurral",
   "udev": true,
-  "url": "https://github.com/alexbelgium/hassio-addons/blob/master/lidarr/README.md",
-  "version": "pr-plugins",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:8686]"
+  "url": "https://github.com/olliedown/homeassistant/edit/main/aurral/README.md",
+  "version": "latest",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:3001]"
 }
