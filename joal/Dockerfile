@@ -8,7 +8,7 @@
 #    ' -      _.'  ``'--.
 #        '---`    .-'""`
 #               /`
-#=== Home Assistant Addon ===#
+#=== Home Assistant Addon TEST ===#
 
 #################
 # 1 Build Image #
