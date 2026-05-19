@@ -10,8 +10,8 @@
   "init": false,
 
   "map": [
-    "share:rw",
-    "data:rw"
+    "data:rw",
+    "share:rw"
   ],
 
   "ports": {
@@ -37,6 +37,6 @@
     "PGID": "int"
   },
 
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:3001]",
+  "webui": "[PROTO:ssl]://[PORT:3001]",
   "url": "https://github.com/olliedown/homeassistant/tree/main/aurral"
 }
