@@ -3,7 +3,7 @@ arch:
   - amd64
 description: An open source command line RatioMaster with WebUI
 hassio_api: true
-image: ghcr.io/alexbelgium/joal-{arch}
+image: ghcr.io/olliedown/joal-{arch}
 ingress: true
 ingress_entry: entry
 map:
@@ -33,5 +33,5 @@ schema:
   verbose: bool?
 slug: joal
 udev: true
-url: https://github.com/alexbelgium/hassio-addons
+url: https://github.com/olliedown/hassio-addons
 version: 2.1.37-4
