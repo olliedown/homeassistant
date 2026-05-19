@@ -84,13 +84,6 @@
     "/custom-services.d:rw",
     "/custom-cont-init.d:rw"
   ],
-"mounts": [
-  {
-    "type": "bind",
-    "source": "/addon_config",
-    "target": "/app/backend/data"
-  }
-],
   "name": "Lidarr NAS",
   "options": {
     "PGID": 0,
