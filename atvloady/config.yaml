@@ -79,7 +79,7 @@ options:
 panel_admin: false
 panel_icon: mdi:bird
 ports:
-  5533/tcp: 80
+  80/tcp: 5533
 ports_description:
   5533/tcp: Web ui
 privileged:
