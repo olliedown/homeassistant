@@ -89,24 +89,6 @@ schema:
   env_vars:
     - name: match(^[A-Za-z0-9_]+$)
       value: str?
-  BIRDSONGS_FOLDER: str?
-  LIVESTREAM_BOOT_ENABLED: bool
-  MQTT_DISABLED: bool?
-  MQTT_HOST_manual: str?
-  MQTT_PASSWORD_manual: password?
-  MQTT_PORT_manual: int?
-  MQTT_USER_manual: str?
-  TZ: str?
-  Use_tphakala_model_v2: bool
-  certfile: str
-  cifsdomain: str?
-  cifspassword: str?
-  cifsusername: str?
-  keyfile: str
-  localdisks: str?
-  networkdisks: str?
-  pi_password: password
-  ssl: bool
 services:
   - mqtt:want
 slug: atvloadly
